@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tradehappy</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="https://use.typekit.net/dto8kvb.css">
+  <link rel="icon" href="images/top-logo.jpg">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <!-- Note - try putting logo inside vid image div, and then doing z-index to put logo on top, rather than position absolute -->
+    <div id='contained'>
+      <div class='top-bar'>
+        <img class='top-logo' id='alt-logo' src='../../assets/logo.png'>
+      </div>
+    <div class='tech-vid'>
+      <!-- <img class='blog-img' src='https://files.slack.com/files-pri/TL9PEEXUN-FUS6MAGLF/image.png'> -->
+      <div class='blog-navbar'>
+          <ul class='nav-bar-options'>
+            <li class='nav-bar-home'>
+              <a href='#home'>
+                <h3 class='blognav'>About</h3>
+              </a>
+            </li>
+            <li class='nav-bar-blog'>
+              <a href='#blog'>
+                <h3 class='blognav'>Blog</h3>
+              </a>
+            </li>
+            <li class='nav-bar-shop'>
+              <a href='#shop' class='active-page'>
+                <h3 class='blognav'>Shop</h3>
+              </a>
+            </li>
+            <li class='nav-bar-com'>
+              <a href='#com'>
+                <h3 class='blognav'>Community</h3>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </header>
+  <div class='body'>
+    <div class='stopper'>
+    </div>
+    <div class='circle-outer'>
+      <div class='bg-circle-right'>
+      </div>
+    </div>
+    <div class='headline-div'>
+      <div class='title'>
+        <h2 style='font-size: 70px'>Technical Analysis Course</h2>
+      </div>
+      <!-- <div class='subline'>
+        <h2>We help create them</h2>
+      </div> -->
+    </div>
+    <div class='intro-div'>
+      <div class='intro-body'>
+        <p style='text-align: center;'>A mastery course with
+        multiple strategies inside</p>
+      </div>
+      <div class='button-wrap'>
+        <div class='intro-button' style='margin: auto;'>
+          <h5>Yes, Please!</h5>
+        </div>
+      </div>
+    </div>
+    <div class='leftright' style='margin-top: 110px;'>
+      <div class='course-img'>
+        <img src='https://files.slack.com/files-pri/TL9PEEXUN-F011PATS7RT/image.png'>
+      </div>
+      <div class='course-info'>
+        <p  style='color:#47DC74; font-weight: 800'>Page 1-11: Beginner Forex Course</p>
+        <br>
+        <p>Get the beginner Forex course at the start
+          which shows you everything to start trading
+          the TradeHappy way.
+        </p>
+        <br>
+        <ul>
+          <li>What This Course Will Teach You</li>
+          <li>Where We Learnt This Strategy</li>
+          <li>How To Start Trading</li>
+          <li>Forex Trading Basics</li>
+        </ul>
+      </div>
+    </div>
+    <div class='leftright2' style='margin-top: 110px;'>
+      <div class='course-img2'>
+        <img src='https://files.slack.com/files-pri/TL9PEEXUN-F011MJW89GS/image.png'>
+      </div>
+      <div class='course-info2'>
+        <p  style='color:#47DC74; font-weight: 800'>Page 12-14: How To Read Price</p>
+        <br>
+        <p>Understanding how price moves is
+            crucial to trading a profitable strategy.
+        </p>
+        <br>
+        <ul>
+          <li>Understanding Price</li>
+          <li>Never Chase Price</li>
+          <li>Seeing The Charts Clearly</li>
+          <li>Why Does Price Move</li>
+        </ul>
+      </div>
+    </div>
+    <div class='leftright' style='margin-top: 110px;'>
+      <div class='course-img'>
+        <img src='https://files.slack.com/files-pri/TL9PEEXUN-F011CHZQEBZ/image.png'>
+      </div>
+      <div class='course-info'>
+        <p  style='color:#47DC74; font-weight: 800'>Page 15-16: The Bar Chart Secret</p>
+        <br>
+        <p>Learn our secret to entering the market
+            on the lows/highs. Bar charts are magic.
+        </p>
+        <br>
+        <ul>
+          <li>Bar Chart Secret</li>
+          <li>USDCAD Buy Example</li>
+          <li>Getting The Perfect Entries</li>
+        </ul>
+      </div>
+    </div>
+    <div class='leftright2' style='margin-top: 110px;'>
+      <div class='course-img2'>
+        <img src='https://files.slack.com/files-pri/TL9PEEXUN-F011CHZR7GX/image.png'>
+      </div>
+      <div class='course-info2'>
+        <p  style='color:#47DC74; font-weight: 800'>Page 17-18: Fibonacci Retracement</p>
+        <br>
+        <p>Fibonacci retracements are a key part of
+          our strategy. Learn how we use the tool.
+        </p>
+        <br>
+        <ul>
+          <li>How To Use Fibonacci</li>
+          <li>EURJPY Trade Example</li>
+          <li>Sniper Entries With Fibonacci</li>
+        </ul>
+      </div>
+    </div>
+    <div class='leftright' style='margin-top: 110px;'>
+      <div class='course-img'>
+        <img src='https://files.slack.com/files-pri/TL9PEEXUN-F011YHYJ533/image.png'>
+      </div>
+      <div class='course-info'>
+        <p  style='color:#47DC74; font-weight: 800'>Page 19: RSI Indicator Strategy</p>
+        <br>
+        <p>RSI indicator can show you areas that
+            are key turning points.
+        </p>
+        <br>
+        <ul>
+          <li>How To Use RSI</li>
+          <li>Finding Turning Points Using RSI</li>
+          <li>Trading Examples</li>
+        </ul>
+      </div>
+    </div>
+    <div class='leftright2' style='margin-top: 110px;'>
+      <div class='course-img2'>
+        <img src='https://files.slack.com/files-pri/TL9PEEXUN-F011PAUBGP7/image.png'>
+      </div>
+      <div class='course-info2'>
+        <p  style='color:#47DC74; font-weight: 800'>Page 20-22: The Perfect Trades</p>
+        <br>
+        <p>We show you perfect trades that we
+          have taken with the strategy.
+        </p>
+        <br>
+        <ul>
+          <li>The Strategy Trading Examples</li>
+          <li>How To Find Sniper Entries</li>
+          <li>Psychology When Trading Setups</li>
+        </ul>
+      </div>
+    </div>
+    <div class='leftright' style='margin-top: 110px;'>
+      <div class='course-img'>
+        <img src='https://files.slack.com/files-pri/TL9PEEXUN-F011NEGBARZ/image.png'>
+      </div>
+      <div class='course-info'>
+        <p  style='color:#47DC74; font-weight: 800'>Page 23-25: Top 3 Tools</p>
+        <br>
+        <p>Our top 3 tools we use to find sniper
+          entries in the Forex market.
+        </p>
+        <br>
+        <ul>
+          <li>Number 1 Fibonacci Price</li>
+          <li>Best Reversal Tool</li>
+          <li>Easily Find Turning Points</li>
+          <li>Finding Orderblocks</li>
+        </ul>
+      </div>
+    </div>
+    <div class='leftright2' style='margin-top: 110px;'>
+      <div class='course-img2'>
+        <img src='https://files.slack.com/files-pri/TL9PEEXUN-F011YHZC75X/image.png'>
+      </div>
+      <div class='course-info2'>
+        <p  style='color:#47DC74; font-weight: 800'>Page 26-27: Top 3 Tools Trades</p>
+        <br>
+        <p>xxxxxxxxxxxxxxxxxxxxxxxxxx
+        </p>
+        <br>
+        <ul>
+          <li>Trading Examples Of All 3 Tools</li>
+          <li>4 Sniper Entries Explained</li>
+          <li>GBPAUD & USDJPY Example</li>
+        </ul>
+      </div>
+    </div>
+    <div class='intro-div' style='margin-bottom: 100px;'sssssss>
+      <div style='width: 800px; margin: auto;' class='intro-body'>
+        <p style='text-align: center; font-size: 40px;'>A Forex analysis mastery course with
+multiple strategies inside</p>
+      </div>
+      <div class='button-wrap'>
+        <div class='intro-button' style='margin: auto;'>
+          <h5>Yes Please!</h5>
+        </div>
+      </div>
+    </div>
+      <div class='footer-bg'>
+        <div class='home-footer-txt-div'>
+          <p class='home-footer-txt'>Looking for something more personal?
+We have <b>mentoring and coaching available</b>
+to our community members.</p>
+        </div>
+      </div>
+  </div>
+</div>
+</body>
+</html>
